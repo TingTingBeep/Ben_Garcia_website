@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ben Carl M. Garcia | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">Ben Garcia</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero hidden">
+
+  <div class="hero-text">
+
+    <div class="hero-badge">Multimedia Creator</div>
+
+    <h1>Hi, I'm <span>Ben Carl M. Garcia</span></h1>
+
+    <p>
+      Bachelor of Science in Information Technology major in Multimedia Arts and Animation.
+      A creative specializing in photography, video editing, sound design, and storytelling.
+    </p>
+
+    <div class="buttons">
+      <a href="#projects" class="btn">Explore Portfolio</a>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+    <div class="image-frame">
+      <img src="image/profile.png" class="hero-img">
+      <div class="glow"></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="hidden">
+
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-hero">
+
+    <!-- IMAGE SIDE (like homepage frame) -->
+    <div class="about-image">
+
+      <div class="about-frame">
+        <img src="image/about.png" class="about-img">
+        <div class="about-glow"></div>
+      </div>
+
+    </div>
+
+    <!-- TEXT SIDE -->
+    <div class="about-text">
+
+      <h3>Creative Multimedia Student</h3>
+
+      <p>
+        I am Ben Carl M. Garcia, a BS Information Technology student majoring in Multimedia Arts and Animation at Universidad de Dagupan.
+      </p>
+
+      <p>
+        I specialize in photography, video editing, sound design, and visual storytelling with a focus on cinematic and meaningful content creation.
+      </p>
+
+      <div class="about-line"></div>
+
+      <p class="about-highlight">
+        Hobbies: Guitar • Singing • Combat Sports <br>
+        Achievement: 2020 & 2023 Palarong Pambansa Silver Medalist
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="hidden">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-wrapper">
+
+  <!-- CURRENTLY USING -->
+  <div class="skill-block">
+
+    <h3 class="skill-title">Currently Using</h3>
+
+    <div class="skill-grid">
+
+      <div class="skill-card"><i class="fa-brands fa-java"></i><span>Java</span></div>
+      <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+      <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+
+    </div>
+
+  </div>
+
+  <!-- OTHER SKILLS -->
+  <div class="skill-block">
+
+    <h3 class="skill-title">Other Skills</h3>
+
+    <div class="skill-grid">
+
+      <div class="skill-card"><i class="fa-solid fa-video"></i><span>DaVinci Resolve</span></div>
+      <div class="skill-card"><i class="fa-solid fa-scissors"></i><span>CapCut</span></div>
+      <div class="skill-card"><i class="fa-brands fa-adobe"></i><span>Adobe Suite</span></div>
+      <div class="skill-card"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="hidden">
+
+<h2 class="section-title">Projects & Gallery</h2>
+
+<div class="viewer">
+
+  <div class="phone-frame">
+    <button class="nav-btn left" onclick="prevImage()">&#10094;</button>
+
+    <div class="phone-screen">
+      <div class="phone-track" id="phoneTrack">
+        <img src="image/p1.png" class="phone-img">
+        <img src="image/p2.png" class="phone-img">
+        <img src="image/p3.png" class="phone-img">
+        <img src="image/p4.png" class="phone-img">
+        <img src="image/p5.png" class="phone-img">
+        <img src="image/p6.png" class="phone-img">
+      </div>
+    </div>
+
+    <button class="nav-btn right" onclick="nextImage()">&#10095;</button>
+  </div>
+
+  <div class="viewer-text">
+    <h3>Photography Gallery</h3>
+    <p>Cinematic shots captured using Fujifilm XA3. Swipe to explore moments.</p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="hidden">
+
+  <h2 class="section-title">Experience & Creative Profile</h2>
+
+  <div class="experience-grid">
+
+    <!-- MAIN IDENTITY CARD -->
+    <div class="exp-card main">
+
+      <h3>Multimedia Creator</h3>
+
+      <p>
+        Specializing in Photography, Video Editing, Sound Design, and Visual Storytelling.
+      </p>
+
+      <div class="badges">
+        <span>Photography</span>
+        <span>Video Editing</span>
+        <span>Sound Design</span>
+        <span>Creative Direction</span>
+      </div>
+
+    </div>
+
+    <!-- EXPERIENCE CARD -->
+    <div class="exp-card">
+
+      <h3>Experience</h3>
+
+      <ul>
+        <li>Freelance Photography Projects</li>
+        <li>Video Editing for Short Films</li>
+        <li>Sound Design & Audio Mixing</li>
+        <li>Social Media Content Creation</li>
+      </ul>
+
+    </div>
+
+    <!-- TOOLS CARD -->
+    <div class="exp-card">
+
+      <h3>Tools I Use</h3>
+
+      <ul>
+        <li>DaVinci Resolve</li>
+        <li>CapCut</li>
+        <li>Adobe Photoshop, Illustrator, Premiere Pro, Lightroom, and Express</li>
+        <li>Canva</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- CONTACT UPGRADED -->
+<section id="contact" class="hidden">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact-container">
+
+  <!-- MESSAGE BOX -->
+  <div class="glass-card">
+    <h3>Send Me a Message</h3>
+
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Write your message..."></textarea>
+
+    <button class="btn">Send Message</button>
+  </div>
+
+  <!-- INFO -->
+  <div class="glass-card">
+    <h3>Contact Info</h3>
+    <p>Email: gbencarl@gmail.com</p>
+    <p>Phone: 0912 131 72172</p>
+
+    <a href="https://www.facebook.com/becarl.garcia" target="_blank">
+      Facebook Profile
+    </a>
+  </div>
+
+</div>
+
+<!-- FAKE COMMENTS -->
+<div class="comments-section">
+
+  <h3>Feedback</h3>
+
+  <div class="comment">
+    <div class="avatar">JM</div>
+    <div><b>Juan Miguel</b><p>Sobrang ganda ng portfolio mo idol 🔥</p></div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">AC</div>
+    <div><b>Ana Cruz</b><p>Ang linis ng design mo, very professional</p></div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">RL</div>
+    <div><b>Ralph Lopez</b><p>Hire niyo tong pogi na to 😂</p></div>
+  </div>
+
+</div>
+
+</section>
+
+<footer>© 2026 Ben Garcia</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
